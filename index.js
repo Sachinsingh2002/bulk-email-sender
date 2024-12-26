@@ -20,4 +20,4 @@ const newTransporter = ()=>{
     secure: true,
     auth: {
 
-      user: 
+      user: "sachinsingh2002.ssss@gmail.com",
