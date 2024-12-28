@@ -35,3 +35,5 @@ const sendEmail = async (row) => {
     to: Email,
     subject: `Request for an Interview Opportunity - ${Role} at ${Company}`,
     html: `
+
+    <p>Greetings ${name},</p>
