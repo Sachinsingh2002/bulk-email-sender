@@ -37,3 +37,8 @@ const sendEmail = async (row) => {
     html: `
 
     <p>Greetings ${name},</p>
+    <p>
+      I'm Sachin Singh, a Web Developer at <a href="https://www.rnpsoft.com/">RnPsoft Pvt. Ltd.</a>. 
+      I got to know through your LinkedIn post that <b>${Company}</b> is looking for a <b>${Role}</b>, 
+      therefore, I have mailed you to tell you about myself. I have:
+    </p>
