@@ -7,7 +7,7 @@ const { exit } = require('process');
 
 // Load your Excel file
 const workbook = xlsx.readFile('./list.xlsx'); // Path for the sheet in your local folder
-const sheetName = 'Bytedance'; // Change to the name of your sheet
+const sheetName = 'Google'; // Change to the name of your sheet
 const worksheet = workbook.Sheets[sheetName];
 const data = xlsx.utils.sheet_to_json(worksheet);
 
