@@ -37,20 +37,35 @@ const sendEmail = async (row) => {
     html: `
 
     <p>Greetings ${name},</p>
-    <p>
-      I'm Sachin Singh, a Web Developer at <a href="https://www.rnpsoft.com/">RnPsoft Pvt. Ltd.</a>. 
-      I got to know through your LinkedIn post that <b>${Company}</b> is looking for a <b>${Role}</b>, 
-      therefore, I have mailed you to tell you about myself. I have:
-    </p>
-    <ul>
-      <li><b>Experience:</b> Web Developer at <a href="https://www.rnpsoft.com/">RnPsoft Pvt. Ltd.</a>, contributing to 
-      responsive, cross-browser-compatible web solutions.</li>
-      <li><b>Data Analyst:</b> Worked at <a href="https://www.galleonconsultants.com/">Galleon Consultants</a>, building 
-      10+ dashboards using <b>Power BI, Tableau, and Excel</b>, improving decision-making by 30%.</li>
-      <li>Optimized the order system for <b>Healermate</b>, improving accuracy by 15% using WordPress.</li>
-      <li>Worked extensively with <b>JavaScript, React, Next.js, Firebase, Supabase</b>, and more.</li>
-      <li>Developed <b>PoemGPT</b>, an AI-driven web app using Next.js, Tailwind CSS, and Replicate API.</li>
-      <li>Created a <b>Spam Detection Web App</b> using Python and Flask with 92% accuracy.</li>
-      <li>Bachelor's in Computer Science and Engineering from <b>Galgotias University, 2025 Grad</b>.</li>
-      <li>Proficient in tools like <b>Power BI, GitHub, and Tableau</b>.</li>
-    </ul>
+<p>
+  I'm Sachin Singh, an undergraduate currently pursuing a Bachelor of Technology in Computer Science from 
+  <b>Galgotias University</b>. I am passionate about <b>frontend web development</b> and am actively looking for 
+  a role in this domain.
+</p>
+<p>
+  I recently completed an internship with <a href="https://www.rnpsoft.com/">RnPsoft Pvt. Ltd.</a>, an IT services and consulting company, where I gained hands-on experience in building responsive and dynamic web solutions using technologies like <b>React</b> and <b>Tailwind CSS</b>. 
+</p>
+<p>
+  Additionally, I worked on several projects, such as:  
+  <ul>
+    <li><b>PoemGPT:</b> An AI-driven web app built with <b>Next.js</b>, <b>Tailwind CSS</b>, and the <b>Replicate API</b>, allowing users to generate poems in various styles.</li>
+    <li><b>Shared Space:</b> A room-finding platform developed using <b>Next.js</b> and <b>Firebase</b> for CRUD operations, featuring a responsive design and dynamic functionality.</li>
+    <li><b>Spam Detection App:</b> A machine learning-based web application using <b>Python</b>, <b>Flask</b>, and <b>Naive Bayes</b> to identify spam messages with 92% accuracy.</li>
+  </ul>
+</p>
+<p>
+  I am interested in any vacant <b>Frontend Web Developer</b> positions in your company that match my skills. I am eager to bring my creativity, enthusiasm, and technical expertise to your team.
+</p>
+<p>
+  PS: I have attached my <b><a href="https://drive.google.com/file/d/1ah5hybBNPm7kDNi1YpbRQSnGFZRdjCPO/view?usp=sharing">Resume</a></b>, <b><a href="https://www.linkedin.com/in/sachinsingh2002/">LinkedIn Profile</a></b>, and <b><a href="https://github.com/sachinsingh2002">GitHub</a></b> for your reference. If you find me suitable for any opportunities, I would greatly appreciate the chance to discuss how I can contribute to your team.
+</p>
+<p>
+  I am looking forward to your response.
+</p>
+<p>
+  Regards,<br>
+  <b>Sachin Singh</b><br>
+  <b>Contact No: +91 9876543210</b><br>
+</p>`
+
+  };
