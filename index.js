@@ -69,3 +69,23 @@ const sendEmail = async (row) => {
 </p>`
 
   };
+
+  try {
+    await transporter.sendMail(mailOptions);
+    console.log('Email sent to', Email);
+  } catch (error) {
+    console.error('Error sending email:', Email, error);
+  }
+};
+
+const sendEmailsSynchronously = async () => {
+  for (const row of data) {
+    await sendEmail(row);
+    await new Promise((resolve) => setTimeout(resolve, Math.random()*90000)); // Pause for 1 minute (adjust the duration as needed)
+  }
+  console.log("Done Sending mails")
+  exit()
+};
+
+// Call the function to send emails
+sendEmailsSynchronously(); 
