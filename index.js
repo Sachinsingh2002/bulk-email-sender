@@ -65,7 +65,7 @@ const sendEmail = async (row) => {
 <p>
   Regards,<br>
   <b>Sachin Singh</b><br>
-  <b>Contact No: +91 9876543210</b><br>
+  <b>Contact No: +91 123456789</b><br>
 </p>`
 
   };
