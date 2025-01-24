@@ -57,7 +57,7 @@ const sendEmail = async (row) => {
   I am interested in any vacant <b>Frontend Web Developer</b> positions in your company that match my skills. I am eager to bring my creativity, enthusiasm, and technical expertise to your team.
 </p>
 <p>
-  PS: I have attached my <b><a href="https://drive.google.com/file/d/1ah5hybBNPm7kDNi1YpbRQSnGFZRdjCPO/view?usp=sharing">Resume</a></b>, <b><a href="https://www.linkedin.com/in/sachinsingh2002/">LinkedIn Profile</a></b>, and <b><a href="https://github.com/sachinsingh2002">GitHub</a></b> for your reference. If you find me suitable for any opportunities, I would greatly appreciate the chance to discuss how I can contribute to your team.
+  PS: I have attached my <b><a href="https://drive.google.com/file/d/1YXH8nVQfKrDk-YrGgJurS0DGC4YQSSJy/view?usp=sharing">Resume</a></b>, <b><a href="https://www.linkedin.com/in/sachinsingh2002/">LinkedIn Profile</a></b>, and <b><a href="https://github.com/sachinsingh2002">GitHub</a></b> for your reference. If you find me suitable for any opportunities, I would greatly appreciate the chance to discuss how I can contribute to your team.
 </p>
 <p>
   I am looking forward to your response.
